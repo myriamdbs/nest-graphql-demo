@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  user(id: String!): User!
+}
+
+type User {
+  firstName: String!
+  id: String!
+
+  """lastname of the employee"""
+  lastName: String!
+}
